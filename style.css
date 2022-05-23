@@ -1,0 +1,57 @@
+h1,
+h2,
+h4,
+h6 {
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+}
+
+form {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+body {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+}
+.card {
+  display: block;
+  margin: 30px auto 30px auto;
+  padding: 50px 50px 50px 65px;
+  width: 651px;
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
+  border-radius: 10.25rem;
+}
+.forecast {
+  text-align: center;
+}
+.temperature {
+  font-size: 40px;
+  font-family: "Exo 2", sans-serif;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.units {
+  font-size: 20px;
+  font-family: "Exo 2", sans-serif;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.stats {
+  list-style: none;
+}
