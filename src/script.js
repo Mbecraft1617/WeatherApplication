@@ -84,7 +84,7 @@ function convertToFahrenheit(event) {
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
-function convertToCelsiuse(event) {
+function convertToCelsius(event) {
   event.preventDefault();
   celsiusLink.classList.add("active");
   fahrenheitLink.classList.remove("active");
