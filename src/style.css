@@ -38,19 +38,20 @@ body {
 .forecast {
   text-align: center;
 }
+.icon {
+  display: block;
+  margin: 0 auto;
+}
 .temperature {
-  font-size: 40px;
   font-family: "Exo 2", sans-serif;
   margin: 0 auto;
-  display: block;
   text-align: center;
+}
+.temperature-value {
+  font-size: 40px;
 }
 .units {
   font-size: 20px;
-  font-family: "Exo 2", sans-serif;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
 }
 .stats {
   list-style: none;
